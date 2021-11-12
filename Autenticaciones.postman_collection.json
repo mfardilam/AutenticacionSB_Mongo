@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "0f08e9f0-2b16-449b-a867-02b5e52e24e6",
+		"name": "Autenticaciones",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AuthenticationRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"username\": \"prueba\",\r\n   \"pass\": \"prueba1234\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/auth",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SubscriptionRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"username\": \"admininicial\",\r\n   \"pass\": \"admin123456\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/subs",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"subs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
